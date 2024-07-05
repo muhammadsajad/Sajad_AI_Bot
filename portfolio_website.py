@@ -101,21 +101,21 @@ st.title("Gallery")
 #     st.image("images/g9.jpg")
 
 # List of lists with image paths for each column
-images = [
-    ["images/g.png", "images/g9.jpg", "images/g2.jpg"],
-    ["images/g3.jpg", "images/g4.jpg", "images/g6.jpg"],
-    ["images/g7.jpg", "images/g8.jpg", "images/g9.jpg"]
-]
+# images = [
+#     ["images/g.png", "images/g9.jpg", "images/g2.jpg"],
+#     ["images/g3.jpg", "images/g4.jpg", "images/g6.jpg"],
+#     ["images/g7.jpg", "images/g8.jpg", "images/g9.jpg"]
+# ]
 
-# Create columns
-col1, col2, col3 = st.columns(3)
-columns = [col1, col2, col3]
+# # Create columns
+# col1, col2, col3 = st.columns(3)
+# columns = [col1, col2, col3]
 
-# Iterate over columns and images
-for col, img_list in zip(columns, images):
-    with col:
-        for img in img_list:
-            st.image(img)
+# # Iterate over columns and images
+# for col, img_list in zip(columns, images):
+#     with col:
+#         for img in img_list:
+#             st.image(img)
 
 # Contact
 st.subheader(" ")
