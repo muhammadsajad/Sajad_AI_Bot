@@ -58,6 +58,7 @@ persona = """
         Muhammad's LinkedIn: http://www.linkedin.com/in/muhammad-sajad
         Muhammad's YouTube: https://youtube.com/@muhammadsajad2230?si=115QVamsGIKkxDaA
         Muhammad's Facebook: https://www.facebook.com/muhammad.sajjad.75873
+        Muhammad's Instagram: https://www.instagram.com/muhammad_sajad47/
 
         """
 st.title("Sajad's AI Bot")
