@@ -81,7 +81,7 @@ st.slider("Robotics",0,100,75)
 
 # -------------- Gallery ------------------------
 st.write(" ")
-st.title("Gallery")
+#st.title("Gallery")
 
 # col1,col2,col3=st.columns(3)
 #
