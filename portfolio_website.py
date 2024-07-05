@@ -4,7 +4,7 @@ import google.generativeai as genai
 api_key=st.secrets["GOOGLE_API_KEY"] # This is for making your api secret on streamlit server
 genai.configure(api_key=api_key)
 
-# genai.configure(api_key="AIzaSyCCFOpyfQsLEcxAPpUE8m-FC-sLWdm6F14")
+
 
 model = genai.GenerativeModel('gemini-1.5-flash')
 
@@ -28,8 +28,8 @@ persona = """
         
         Here is more info about Muhammad Sajad:
         
-        Muhammad Sajad is a computer science professional with expertise in artificial intelligence, deep learning, and computer vision.
-        He has completed his MS in Computer Science from Abasyn University Islamabad and his MCS from Abdul Wali Khan University Mardan.
+        Muhammad Sajad is a computer science professional with expertise in artificial intelligence,Medical Image Analysis, deep learning, and computer vision.
+        He has completed his MS in Computer Science from Abasyn University Islamabad with a CGPA of 3.53/4.0, his MCS in Computer Science from Abdul Wali Khan University Mardan with a CGPA of 3.57/4.0, and his BSC in Computer Science from Abdul Wali Khan University Mardan with a result of 70%.
         Muhammad has experience as an IT teacher at Iqra College of Technology in Mardan, Pakistan, and has contributed to research in the field,
         with publications on topics such as teeth lesion detection using deep learning and automatic lesion detection in periapical X-rays.
         
@@ -57,6 +57,8 @@ persona = """
         Muhammad's GitHub: https://github.com/muhammadsajad
         Muhammad's LinkedIn: http://www.linkedin.com/in/muhammad-sajad
         Muhammad's YouTube: https://youtube.com/@muhammadsajad2230?si=115QVamsGIKkxDaA
+        Muhammad's Facebook: https://www.facebook.com/muhammad.sajjad.75873
+
         """
 st.title("Sajad's AI Bot")
 st.write("")
@@ -69,7 +71,7 @@ if st.button("ASK", use_container_width=400):
 
 
 st.title("")
-
+# -------------------------------------- YouTube ----------------------------------------
 col1, col2= st.columns(2)
 with col1:
     st.subheader("Youtube Channel")
@@ -88,10 +90,12 @@ st.title("")
 st.title("My Setup")
 st.image("images/setup.jpg")
 
+#----------------------- Skills -----------------------------
 st.write(" ")
 st.title("My Skills")
-st.slider("Programming",0,100,70)
-st.slider("Teaching",0,100,85)
-st.slider("Robotics",0,100,75)
+st.slider("Python Programing",0,100,70)
+st.slider("Tensorflow Keras Framework",0,100,85)
+st.slider("TKinter (GUI)",0,100,75)
+st.slider("OpenCV",0,100,80)
 
 
