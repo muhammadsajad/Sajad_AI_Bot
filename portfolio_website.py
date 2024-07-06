@@ -66,7 +66,7 @@ st.write("")
 # st.write("Ask anything about me")
 user_question=st.text_input("Ask anything about me",placeholder="Type your question here")
 if st.button("ASK", use_container_width=400):
-    prompt = persona +"Here is the question that the user asked: " + user_question
+    prompt = persona + " Here is the question that the user asked: " + user_question
     response = model.generate_content(prompt)
     st.write(response.text)
 
