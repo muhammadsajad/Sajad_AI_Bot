@@ -6,7 +6,7 @@ genai.configure(api_key=api_key)
 
 
 
-model = genai.GenerativeModel('gemini-1.5-pro')
+model = genai.GenerativeModel('gemini-1.5-flash')
 
 # col1, col2 =st.columns(2)
 col1, col2 = st.columns([3, 1])  # Increase the width of the second column
