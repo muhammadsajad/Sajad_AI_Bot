@@ -76,13 +76,14 @@ st.title("")
 col1, col2= st.columns(2)
 with col1:
     st.subheader("Youtube Channel")
+    st.write("[- MediBot: AI Health Companion](https://youtu.be/cbnJcJHBAsA?si=3xJKFbiC8bwCkOFP)")
     st.write("[- Face Recognition Attendance System](https://youtu.be/_Y9ZmRDrKcQ?si=mtsXJyEN834E2MG6)")
     st.write("[- Periapical X-ray Classifier](https://youtu.be/QuSJeuWmB44?si=GFMcKZS8NJhMaoxA)")
     st.write("[- Virtual Environment](https://youtu.be/7_g1692lvTc?si=dKcQGLNrqWTYrnq0)")
     st.write("[- Exporting and Importing Virtual Environment](https://youtu.be/FiC3GfRDZWA?si=x015pcyoFvyUl4ei)")
 
 with col2:
-    st.video("https://youtu.be/_Y9ZmRDrKcQ?si=qSJoo-2EKwW9FZED")
+    st.video("https://youtu.be/cbnJcJHBAsA?si=3xJKFbiC8bwCkOFP")
 
 
 st.title("")
