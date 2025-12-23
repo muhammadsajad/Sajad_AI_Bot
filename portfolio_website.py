@@ -6,7 +6,7 @@ genai.configure(api_key=api_key)
 
 
 
-model = genai.GenerativeModel('gemini-1.5-flash')
+model = genai.GenerativeModel('gemini-2.5-flash')
 
 # col1, col2 =st.columns(2)
 col1, col2 = st.columns([3, 1])  # Increase the width of the second column
@@ -98,5 +98,6 @@ st.slider("Python Programing",0,100,70)
 st.slider("Tensorflow Keras Framework",0,100,85)
 st.slider("TKinter (GUI)",0,100,75)
 st.slider("OpenCV",0,100,80)
+
 
 
