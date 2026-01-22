@@ -32,6 +32,8 @@ persona = """
         He has completed his MS in Computer Science from Abasyn University Islamabad with a CGPA of 3.53/4.0, his MCS in Computer Science from Abdul Wali Khan University Mardan with a CGPA of 3.57/4.0, and his BSC in Computer Science from Abdul Wali Khan University Mardan with a result of 70%.
         Muhammad has experience as an IT teacher at Iqra College of Technology in Mardan, Pakistan, and has contributed to research in the field,
         with publications on topics such as teeth lesion detection using deep learning and automatic lesion detection in periapical X-rays.
+
+        Muhammad Sajad is curently doing Master from OTH Amberg University Germany and doing Master in AI for Industrial Applications.
         
         Muhammad has developed several projects, including a Face Recognition Attendance System, a Periapical X-ray Classifier, and an Image Classifier. He has presented his work at international conferences and workshops and holds multiple certifications in AI, machine learning, and Python programming.
         
@@ -98,6 +100,7 @@ st.slider("Python Programing",0,100,70)
 st.slider("Tensorflow Keras Framework",0,100,85)
 st.slider("TKinter (GUI)",0,100,75)
 st.slider("OpenCV",0,100,80)
+
 
 
 
